@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Página de Cat</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Página de Cat Valentine</h1>
+        <h3>Imagenes de Cat</h3>
+        <!--Imagen desde internet-->
+        <img src=https://m.media-amazon.com/images/I/51+FwhV9RvL.jpg>
+        <!--Imagen desde computadora-->
+        <img src="imagenes/2138508.png">
+
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más fotos de Cat <a href="https://unsplash.com/es/s/fotos/lindos-gatitos" target="_blank">da click en este  enlace.</a></p>
+
+        <!--listas ordenadas-->
+        <h3>Lista de Cat</h3>
+        <p>Tres cosas que <strong>no sabias</strong> de Cat</p>
+        <ol>
+            <li>Duerme muchisimo</li> <!--lista ordenada-->
+            <li>Se tiene que cobijar para que se duerma</li>
+            <li>No le gusta ir con la veterinaria</li>
+        </ol>
+
+        <!--lista desordena-->
+        <p>Tres cosas que <i>odia</i> Cat</p>
+        <ul>
+            <li>No le gusta que la despierten temprano</li>
+            <li>No le gusta bañarse</li>
+            <li>No le gusta la leche</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <!--form con botones de radio-->
+            <p>¿Y tú tienes una Cat en tu vida?</p>
+            <!--Respuestas-->
+            <label>
+                <input id="Sí" 
+                type="radio" 
+                value="Sí" 
+                name="Cat">Sí
+            </label>
+            <br>
+            <label>
+                <input id="No" 
+                type="radio" value="No" 
+                name="Cat">No
+            </label>
+
+            <!--Form con casillas de vereficacion-->
+            <p>¿Que tipo de personalidad tiene tu Cat?</p>
+            <label>
+                <input id="demente"
+                type="checkbox"
+                value="demente"
+                name="personalidad"
+                checked>Demente
+            </label>
+            <br>
+            <label>
+                <input id="Cariñoso"
+                type="checkbox"
+                value="cariñoso"
+                name="personalidad"
+                checked>Cariñoso
+            </label>
+            <br>
+            <label>
+                <input id="Perezoso"
+                type="checkbox"
+                value="perezoso"
+                name="personalidad"
+                checked>Perezoso
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p><small>
+            Esta página fue creada durante bootcamp de Tecnolochicas PRO
+            <a href="https://tecnolochicas.mx/" target="_blank">Da click aqui</a>
+        </small></p>
+
+    </footer>
+</html>
